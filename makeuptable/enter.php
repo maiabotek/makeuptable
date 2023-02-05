@@ -1,3 +1,5 @@
+//code copied from sock market
+
 <?php
 
 include 'database.php';
