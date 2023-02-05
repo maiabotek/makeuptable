@@ -12,6 +12,7 @@
 <div id="container">
 <h1>Add Your Favorite Makeup Product!</h1>
 <div id="makeupsubmission">
+<!-- code copied and modified from sock market -->
 <!-- this form is handled by the JavaScript file linked at bottom -->
 <form id="makeupform" method="post" action="" autocomplete="off">
 <div>
@@ -43,7 +44,7 @@
 </form>
 <!-- close the form -->
 <p id=viewall><a href="table_update.php">View all recommendations</a></p>
-</div> <!-- close #socks -->
+</div> 
 <!-- empty div -->
 <div id="response"></div>
 </div> <!-- close container -->
