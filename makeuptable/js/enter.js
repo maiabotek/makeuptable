@@ -1,3 +1,5 @@
+//code copied from sock market 
+
 // this is the form in enter_new_record.php -
 const makeupform = document.querySelector('#makeupform');
 
