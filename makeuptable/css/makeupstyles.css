@@ -1,0 +1,93 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background: #F4E2EE;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 125%;
+    color: #000;
+    max-width: 90%;
+    margin:0;
+    margin: auto;
+}
+
+article {
+  border: solid 2px #000;
+  background: #fff;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  margin: auto;
+  margin-top: 1.5rem;
+  max-width: 750px;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 0rem;
+  padding: 0.5rem;
+  margin: auto;
+  max-width: 90%;
+}
+
+label {
+    display: block;
+    padding-top: 0.7rem;
+    height: 3rem;
+}
+
+input {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+select {
+    font-size: 1.5rem;
+    padding-top: 0.7rem;
+    height: 3rem;
+    padding: 0.1rem;
+    /* too much padding and the options won't show in IE */
+    width: 100%;
+}
+
+table {
+  border: solid 1px #000;
+  margin-top:1rem;
+}
+
+#makeupform {
+  font-size: 125%;
+}
+
+#notesdiv{
+  padding-bottom:2rem;
+}
+
+#viewall {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#headings {
+  background:#000;
+  color: #fff;
+}
+
+.links {
+  text-align: center;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
