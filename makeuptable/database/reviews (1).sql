@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 4.9.7
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Feb 04, 2023 at 11:52 PM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.2.0
+-- Host: localhost:3306
+-- Generation Time: Feb 05, 2023 at 01:52 AM
+-- Server version: 5.7.41
+-- PHP Version: 7.4.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `makeup`
+-- Database: `maiabote_makeup`
 --
 
 -- --------------------------------------------------------
@@ -32,7 +33,7 @@ CREATE TABLE `reviews` (
   `brand` varchar(100) NOT NULL,
   `product` varchar(40) NOT NULL,
   `notes` varchar(300) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `reviews`
@@ -49,14 +50,7 @@ INSERT INTO `reviews` (`id`, `brand`, `product`, `notes`) VALUES
 (8, 'Too Faced', 'Mascara', 'Voluminous'),
 (9, 'Milk', 'Blush', 'Lasts for a long time'),
 (10, 'Milk', 'Contour', 'Applies and stays on easily'),
-(11, 'HUDA ', 'Contour', 'Compact and colorful'),
-(12, 'Il Makiage', 'Foundation', 'Blends very well'),
-(13, 'Tarte', 'Eyeshadow', 'Colors mix and match well'),
-(14, 'Chanel', 'Eyeshadow', 'Comes with 4 colors that look good tg'),
-(15, 'Elf', 'Concealer', 'Doesn\\\'t crease when you apply powder'),
-(16, 'Dior', 'Lip Stick', 'Doesn\\\'t come off over time'),
-(17, 'Rare', 'Blush', 'Blends easily '),
-(18, 'Giorgio Armani ', 'Foundation', 'Natural, dewy finish ');
+(11, 'NYX', 'Eyeliner', 'cheap');
 
 --
 -- Indexes for dumped tables
@@ -76,7 +70,7 @@ ALTER TABLE `reviews`
 -- AUTO_INCREMENT for table `reviews`
 --
 ALTER TABLE `reviews`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
